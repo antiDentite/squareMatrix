@@ -1,13 +1,13 @@
-This is a cleaned up version of a project that I completed last year when I was learning C and C++ for scientific computing. The are three main matrix template classes that one can use and a vector template class. The matrix classes are for square full matrices, square band matrices and square tridiagonal matrices. The template parameters enable one to define the dimension and scalar type for both the vector class and the matrix classes. All standard linear algebra operations are supported as well as the transpose operator and a linear system solver. The linear system solver uses the LU decomposition and currently only works when the underlying matrix is assumed to be invertible (the diagonal elements of U are not zero). Have a look at the sample file, sample.cpp, for an overview of how to use the classes. 
+This is a cleaned up version of a project that I completed last year when I was learning C and C++ for scientific computing. There are three main matrix template classes that one can use and a vector template class. The matrix classes are for square full matrices, square band matrices and square tridiagonal matrices. The template parameters enable one to define the dimension and scalar type for both the vector class and the matrix classes. All standard linear algebra operations are supported as well as the transpose operator and a linear system solver. The linear system solver uses the LU decomposition and currently only works when the underlying matrix is deemed to be invertible. Have a look at the sample file, sample.cpp, for an overview of how to use these classes. 
 
 
-## **Installation**
+## **Usage**
 
-Simply insert the header file LinAlg.h in your main source file. This header file contains declarations and full definitions for the friend functions of the various classes. The full definitions for the member functions are in the LinAlg.cpp file which is included in the LinAlg.h. 
+Simply insert the header file SQUARE.h and the source file SQUARE.cpp into your main source file. Remember to include the source file after the header file. 
 
 ## **Ongoing Work**
 
-In the near future, I will add the following features:
+In the near future, I wish to add the following features:
 
 * A symmetric matrix class that will make use of the Cholesky factorization.
 
@@ -18,7 +18,7 @@ In the near future, I will add the following features:
 
 ## **Contact Information**
 
-If you have any questions about this project, you can contact Marc Fortier at reitrof.cram@gmail.com
+If you have any questions or comments about this project, you can contact Marc Fortier at reitrof.cram@gmail.com
 
 
 
